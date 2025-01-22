@@ -1,7 +1,8 @@
 
 
 .introduction {
-    background-color: #564256;
+    background-color: var(--background-color-1);
+    background-image: url("https://media.gq.com/photos/5de8353d4e7a380009b8392c/master/pass/Best-Videogames-of-the-Year-GQ-2019-120419.jpg");
     height: 50vh;
 }
 
@@ -14,7 +15,7 @@
 
 .introduction * h1 {
     margin: 0;
-    padding-top: 7vw;
+    padding-top: 8vw;
     font-size: 50px;
     color: var(--text-color);
 }
@@ -48,4 +49,42 @@
     opacity: 0;
     padding-left: 50vw;
     animation: fadeInRight 1s forwards;
+}
+
+.reviews {
+    background-color: var(--background-color-1);
+    height: 50vh;
+}
+
+.reviews > div {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.reviews * h1 {
+    margin: 0;
+    padding-top: 1vw;
+    font-size: 50px;
+    color: var(--text-color-2);
+}
+
+.partners {
+    background-color: var(--background-color-1);
+    height: 50vh;
+}
+
+.partners > div {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.partners * h1 {
+    margin: 0;
+    padding-top: 1vw;
+    font-size: 50px;
+    color: var(--text-color-2);
 }

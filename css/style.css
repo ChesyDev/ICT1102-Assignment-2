@@ -2,8 +2,9 @@ html {
     --primary-color-1: #ffffff;
     --secondary-color-1: #ffffff;
     --background-color-1: #E8E8E8;
-    --background-color-2: #EE4266;
-    --text-color: #E8E8E8;
+    --background-color-2: #BE3144;
+    --text-color: white;
+    --text-color-2: black;
     font-family: 'Inter', serif;
 }
 
