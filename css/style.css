@@ -2,7 +2,7 @@ html {
     --primary-color-1: #ffffff;
     --secondary-color-1: #ffffff;
     --background-color-1: #E8E8E8;
-    --background-color-2: #BE3144;
+    --background-color-2: #4f4f4f;
     --text-color: white;
     --text-color-2: black;
     font-family: 'Inter', serif;
@@ -12,6 +12,33 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color-1);
+}
+
+/*Introduction Styling*/
+.introduction {
+    background-color: var(--background-color-2);
+    height: 10vh;
+    outline: 2px solid rgb(60, 60, 60);
+    overflow: hidden;
+}
+
+.introduction > a {
+    position: absolute;
+    float: left;
+}
+
+.introduction > a > img {
+    padding-left: 1vw; 
+    height: 10vh;
+}
+
+.introduction > p {
+    line-height: 1.5em;
+    font-size: .75em;
+    padding-left: 12vw;
+    padding-top: .3em;
+    margin: 0;
+    color: var(--text-color);
 }
 
 /*Navigation Bar Styling*/

@@ -1,29 +1,22 @@
-
-
-.introduction {
+.products {
     background-color: var(--background-color-1);
-    background-image: url("https://media.gq.com/photos/5de8353d4e7a380009b8392c/master/pass/Best-Videogames-of-the-Year-GQ-2019-120419.jpg");
     height: 50vh;
 }
 
-.introduction > div {
+.products > div {
     display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.introduction * h1 {
+.products * h1 {
     margin: 0;
-    padding-top: 8vw;
+    padding-top: 1vw;
     font-size: 50px;
-    color: var(--text-color);
+    color: var(--text-color-2);
 }
 
-.introduction * p {
-    font-weight: bold;
-    color: var(--text-color);
-}
 
 @keyframes fadeInLeft {
     to {
