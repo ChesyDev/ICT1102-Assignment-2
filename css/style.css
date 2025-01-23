@@ -92,3 +92,34 @@ body {
 .hover-underline:hover::after {
     transform: scaleX(1);
 }
+
+/* Footer */
+footer {
+    height: 10vh;
+    background-color: var(--background-color-2);
+    overflow: hidden;
+    color: var(--text-color)
+}
+
+.footer-div {
+    padding-left: 1vw;
+}
+
+.footer-div > p {
+    margin: 0;
+    padding-top: 1em;
+    line-height: .5em;
+}
+
+.footer-contact {
+    display: flex;
+}
+
+.footer-contact > span {
+    display: flex;
+    padding-right: 2vw;
+}
+
+.footer-contact > span > p > a {
+    color: rgb(20,200,255);
+}

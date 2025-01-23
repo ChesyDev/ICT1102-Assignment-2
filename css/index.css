@@ -13,6 +13,12 @@
     }
 }
 
+body {
+    background-image: url("../images/HomePageBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .fade-in-left {
     opacity: 0;
     padding-right: 50vw;
@@ -27,11 +33,7 @@
 
 /*Products Section*/
 .products {
-    background-color: var(--background-color-1);
-    background-image: url("../images/HomePageBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
+    height: 75vh;
 }
 
 .products > div {
@@ -43,8 +45,9 @@
 
 .products * h1 {
     margin: 0;
-    padding-top: 1vw;
+    padding-top: 5vh;
     font-size: 50px;
+    font-weight: 500;
     color: var(--text-color-2);
 }
 
@@ -55,7 +58,6 @@
 
 /*Review Section*/
 .reviews {
-    background-color: var(--background-color-1);
     height: 50vh;
 }
 
@@ -68,15 +70,15 @@
 
 .reviews * h1 {
     margin: 0;
-    padding-top: 1vw;
+    padding-top: 2vh;
     font-size: 50px;
-    color: var(--text-color-2);
+    font-weight: 500;
+    color: var(--text-color);
 }
 
 
 /*Partners Section*/
 .partners {
-    background-color: var(--background-color-1);
     height: 50vh;
 }
 
@@ -89,7 +91,8 @@
 
 .partners * h1 {
     margin: 0;
-    padding-top: 1vw;
+    padding-top: 2vh;
     font-size: 50px;
-    color: var(--text-color-2);
+    font-weight: 500;
+    color: var(--text-color);
 }
