@@ -1,3 +1,119 @@
 section {
     height: 90vh;
+    background-image: url("../images/mario.gif");
+    background-position-y: -1vh;
+}
+
+section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section > div > img {
+    position: relative;
+    padding-top: 10vh;
+    padding-left: 15vw;
+    width: 5vw;
+}
+
+form {
+    display: block;
+    background-image: linear-gradient(135deg, rgba(0,0,0,.5), rgba(255,255,255,.5));
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin-top: 0vh;
+    border-radius: 2vw;
+    border: 1px solid rgba(255,255,255, .8);
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form > h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+form > input[type=email] {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 3px solid rgba(255,255,255,.1);
+    width: 15vw;
+}
+
+form > input[type=password] {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 3px solid rgba(255,255,255,.1);
+    width: 15vw;
+}
+
+form > input[type=text] {
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 3px solid rgba(255,255,255,.1);
+    width: 15vw;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-checkbox > input[type=checkbox] {
+    width: 1.5vw;
+    height: 1.5vw;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    border: none;
+    outline: none;
+}
+
+.form-checkbox > p {
+    font-size: 12px;
+    color: rgba(255,255,255, .8);
+    padding-bottom: 1vh;
+    margin-bottom: 0;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-submit > input {
+    margin: 0;
+    background-color: rgb(127, 164, 199);
+    border: 1.5px solid black;
+    border-radius: 20vw;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-submit > a {
+    padding-top: 1vh;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255,255,255, .8);;
+}
+
+form > input{
+    margin-bottom: 2vh;
+}
+
+form > p {
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
 }
