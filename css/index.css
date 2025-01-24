@@ -124,6 +124,47 @@ body {
     color: var(--text-color);
 }
 
+.reviews-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 5vh;
+}
+
+.review-box {
+    background-color: white;
+    border-radius: 1vw;
+    width: 25vw;
+    height: 30vh;
+}
+
+.review-box > p {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    font-size: 15px;
+    width: 90%;
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+
+.review-user > img {
+    width: 40px;
+}
+
+.review-user > p {
+    padding-left: 0.5vw;
+    font-size: 20px;
+    margin: 0;
+}
 
 /*Partners Section*/
 .partners {
