@@ -66,6 +66,38 @@ body {
     padding-right: 2vw;
 }
 
+.navbar > a > img {
+    height: 4vh;
+    margin-right: -10px;
+    padding-top: 5px;
+}
+
+.navbar > a:hover {
+    filter: brightness(0%);
+}
+
+.searchbar {
+    width: 40vw;
+    height: 4vh;
+    border-radius: 2vw;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon > img {
+    height: 5vh;
+}
+
+.cart-icon:hover {
+    filter: brightness(0%);
+}
+
 .current-page {
     padding: 12px;
     padding-left: 20px;
