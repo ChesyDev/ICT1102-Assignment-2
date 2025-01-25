@@ -82,6 +82,8 @@ body {
     border-radius: 2vw;
     padding-right: 0px;
     padding-left: 10px;
+    border: none;
+    outline: none;
 }
 
 .navbar-right {
