@@ -137,6 +137,10 @@ form > input[type=text] {
     color: rgba(255,255,255, .8);;
 }
 
+.form-submit > a:hover {
+    color: rgba(0,0,0, .8);;
+}
+
 form > input{
     margin-bottom: 2vh;
 }
