@@ -74,7 +74,7 @@ body {
 }
 
 .product-box > img {
-    height: 45vh;
+    width: 22.5vw;
     opacity: 1;
 }
 
