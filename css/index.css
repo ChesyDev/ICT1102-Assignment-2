@@ -2,21 +2,21 @@
 @keyframes fadeInLeft {
     to {
         opacity: 1;
-        padding-right: 0px;
+        transform: translateX(25vw);
     }
 }
 
 @keyframes fadeInRight {
     to {
         opacity: 1;
-        padding-left: 0px;
+        transform: translateX(-25vw)
     }
 }
 
 @keyframes fadeInDown {
     to {
         opacity: 1;
-        padding-top: 0px;
+        transform: translateY(-100vh);
     }
 }
 
@@ -75,8 +75,7 @@ body {
 
 .product-box > img {
     height: 45vh;
-    opacity: 0;
-    padding-top: 0vh;
+    opacity: 1;
 }
 
 .product-box > img:nth-child(1) {
@@ -128,7 +127,7 @@ body {
 @keyframes reviewFade {
     to {
         opacity: 1;
-        margin-top: 0;
+        transform: translateY(-100vh)
     }
 }
 
@@ -146,7 +145,7 @@ body {
     border-radius: 1vw;
     width: 25vw;
     height: 30vh;
-    margin-top: 200vw;
+    margin-top: 100vh;
     opacity: 0;
     animation: reviewFade 1s forwards;
 }
