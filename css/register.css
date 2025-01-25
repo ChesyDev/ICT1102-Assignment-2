@@ -1,6 +1,6 @@
 section {
     height: 90vh;
-    background-image: url("../images/mario.gif");
+    background-image: url("../images/register_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -22,7 +22,7 @@ section > div > img {
 
 form {
     display: block;
-    background-image: linear-gradient(135deg, rgba(0,0,0,.5), rgba(255,255,255,.5));
+    background-image: linear-gradient(135deg, rgba(0,0,0,.9), rgba(50,50,50,.9));
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     margin-top: 0vh;
@@ -41,9 +41,11 @@ form > h1 {
 form > input[type=email] {
     outline: none;
     border: none;
+    font-family: 'Inter', serif;
     background-color: rgba(255, 255, 255, 0);
     border-bottom: 3px solid rgba(255,255,255,.1);
     width: 15vw;
+    color: white;
 }
 
 form > input[type=password] {
@@ -52,14 +54,17 @@ form > input[type=password] {
     background-color: rgba(255, 255, 255, 0);
     border-bottom: 3px solid rgba(255,255,255,.1);
     width: 15vw;
+    color: white;
 }
 
 form > input[type=text] {
     outline: none;
     border: none;
+    font-family: 'Inter', serif;
     background-color: rgba(255, 255, 255, 0);
     border-bottom: 3px solid rgba(255,255,255,.1);
     width: 15vw;
+    color: white;
 }
 
 .form-checkbox {
