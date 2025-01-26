@@ -1,0 +1,70 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(20, 20, 20);
+    background-image: url("../images/HomePageBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product {
+    height: 100vh;
+}
+
+.product-details {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+    display: flex;
+}
+
+.product-details > span > img {
+    border-radius: 2vw;
+    width: 20vw;
+}
+
+.product-details > div {
+    padding-left: 1vw;
+}
+
+.product-details > div > h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.product-details > div > h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.product-details > div > p {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 15vh;
+}
+
+.product-details > div > a {
+    text-decoration: none;
+    background: rgb(240,240,240);
+    padding: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 2vw;
+    color: black;
+}
+
+.product-desc {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+}
+
+.product-desc > h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.product-desc > p {
+    color: white;
+}
