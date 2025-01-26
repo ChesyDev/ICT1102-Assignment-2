@@ -176,13 +176,27 @@ footer {
 
 .footer-contact {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-contact > span {
     display: flex;
-    padding-right: 2vw;
+    padding-left: 1vw;
 }
 
 .footer-contact > span > p > a {
     color: rgb(20,200,255);
+}
+
+.footer-others {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-others > a {
+    color: rgb(155,155,155);
+    text-decoration: none;
+    padding-left: 1vw;
 }
