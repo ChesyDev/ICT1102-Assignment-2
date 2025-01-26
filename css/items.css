@@ -58,12 +58,17 @@ body {
     padding-top: 5vh;
 }
 
+.product-box > a > img {
+    width: 22.5vw;
+    height: 47.5vh;
+}
+
 .product-box > img {
     width: 22.5vw;
     opacity: 1;
 }
 
-.product-box > img:nth-child(1) {
+.product-box > a > img:nth-child(1) {
     padding-top: 100vh;
     animation: fadeInDown 1s forwards;
     animation-delay: 0s;
@@ -132,6 +137,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 @keyframes enlargeItem {
     to {
         width: 22vw;

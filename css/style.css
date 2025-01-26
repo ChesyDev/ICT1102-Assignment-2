@@ -6,6 +6,7 @@ html {
     --text-color: white;
     --text-color-2: black;
     font-family: 'Inter', serif;
+    scroll-behavior: smooth;
 }
 
 body {
