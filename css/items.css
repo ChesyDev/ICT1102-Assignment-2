@@ -86,3 +86,28 @@ body {
     animation: fadeInDown 1s forwards;
     animation-delay: .6s;
 }
+
+/* Items Section */
+.items {
+    height: 125vh;
+    margin-top: 5vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.item-category > h1 {
+    font-size: 2em;
+    color: var(--text-color);
+}
+
+.item-rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-rows > img {
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+    object-position: center;
+}
