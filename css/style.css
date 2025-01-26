@@ -112,6 +112,7 @@ body {
     text-decoration: none;
     font-size: 14px;
     border-radius: 10vw;
+    border: 2px solid rgb(60,60,60);
     background-color: var(--background-color-1);
     color: var(--text-color-2);
 }
