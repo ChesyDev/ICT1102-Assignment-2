@@ -2,14 +2,14 @@
 @keyframes fadeInLeft {
     to {
         opacity: 1;
-        transform: translateX(25vw);
+        transform: translateX(0vw);
     }
 }
 
 @keyframes fadeInRight {
     to {
         opacity: 1;
-        transform: translateX(-25vw)
+        transform: translateX(0vw)
     }
 }
 
@@ -93,6 +93,7 @@ body {
     margin-top: 5vh;
     padding-left: 8vw;
     padding-right: 8vw;
+    overflow: hidden;
 }
 
 .item-category > h1 {
@@ -100,14 +101,51 @@ body {
     color: var(--text-color);
 }
 
+.items > .item-category:nth-child(1) {
+    opacity: 0;
+    transform: translateX(100vw);
+    animation: fadeInRight 1s forwards;
+}
+
+.items > .item-category:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-100vw);
+    animation: fadeInLeft 1s forwards;
+    animation-delay: .1s;
+}
+
+.items > .item-category:nth-child(3) {
+    opacity: 0;
+    transform: translateX(100vw);
+    animation: fadeInRight 1s forwards;
+    animation-delay: .2s;
+}
+
+.items > .item-category:nth-child(4) {
+    opacity: 0;
+    transform: translateX(-100vw);
+    animation: fadeInLeft 1s forwards;
+    animation-delay: .3s;
+}
+
 .item-rows {
     display: flex;
     justify-content: space-between;
 }
+@keyframes enlargeItem {
+    to {
+        width: 22vw;
+        border: 1px solid white;
+    }
+}
 
-.item-rows > img {
+.item-rows > a > img {
     width: 20vw;
     height: 20vh;
     object-fit: cover;
     object-position: center;
+}
+
+.item-rows > a > img:hover {
+    animation: enlargeItem .2s forwards;
 }
