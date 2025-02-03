@@ -1,242 +1,242 @@
 /* Animations, etc */
 @keyframes fadeInLeft {
-    to {
-        opacity: 1;
-        transform: translateX(25vw);
-    }
+  to {
+    opacity: 1;
+    transform: translateX(25vw);
+  }
 }
 
 @keyframes fadeInRight {
-    to {
-        opacity: 1;
-        transform: translateX(-25vw)
-    }
+  to {
+    opacity: 1;
+    transform: translateX(-25vw);
+  }
 }
 
 @keyframes fadeInDown {
-    to {
-        opacity: 1;
-        transform: translateY(-100vh);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(-100vh);
+  }
 }
 
 body {
-    background-color: rgb(20, 20, 20);
-    background-image: url("../images/HomePageBackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: rgb(20, 20, 20);
+  background-image: url("../images/HomePageBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fade-in-left {
-    opacity: 0;
-    padding-right: 50vw;
-    animation: fadeInLeft 1s forwards;
+  opacity: 0;
+  padding-right: 50vw;
+  animation: fadeInLeft 1s forwards;
 }
 
 .fade-in-right {
-    opacity: 0;
-    padding-left: 50vw;
-    animation: fadeInRight 1s forwards;
+  opacity: 0;
+  padding-left: 50vw;
+  animation: fadeInRight 1s forwards;
 }
 
 .fade-in-down {
-    animation: fadeInDown 1s forwards;
+  animation: fadeInDown 1s forwards;
 }
 
 /*Products Section*/
 .products {
-    height: 75vh;
-    border-bottom: 3px solid black;
-    overflow: hidden;
+  height: 75vh;
+  border-bottom: 3px solid black;
+  overflow: hidden;
 }
 
 .products > div {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .products * h1 {
-    margin: 0;
-    padding-top: 5vh;
-    font-size: 50px;
-    font-weight: bold;
-    color: var(--text-color);
+  margin: 0;
+  padding-top: 5vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .product-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 5vh;
 }
 
 .product-box > img {
-    width: 22.5vw;
-    opacity: 1;
+  width: 22.5vw;
+  opacity: 1;
 }
 
 .product-box > img:nth-child(1) {
-    padding-top: 100vh;
-    animation: fadeInDown 1s forwards;
-    animation-delay: 0s;
+  padding-top: 100vh;
+  animation: fadeInDown 1s forwards;
+  animation-delay: 0s;
 }
 
 .product-box > img:nth-child(2) {
-    padding-top: 100vh;
-    animation: fadeInDown 1s forwards;
-    animation-delay: .2s;
+  padding-top: 100vh;
+  animation: fadeInDown 1s forwards;
+  animation-delay: 0.2s;
 }
 
 .product-box > img:nth-child(3) {
-    padding-top: 100vh;
-    animation: fadeInDown 1s forwards;
-    animation-delay: .4s;
+  padding-top: 100vh;
+  animation: fadeInDown 1s forwards;
+  animation-delay: 0.4s;
 }
 
 .product-box > img:nth-child(4) {
-    padding-top: 100vh;
-    animation: fadeInDown 1s forwards;
-    animation-delay: .6s;
+  padding-top: 100vh;
+  animation: fadeInDown 1s forwards;
+  animation-delay: 0.6s;
 }
 
 /*Review Section*/
 .reviews {
-    height: 50vh;
-    border-bottom: 3px solid black;
-    overflow: hidden;
+  height: 50vh;
+  border-bottom: 3px solid black;
+  overflow: hidden;
 }
 
 .reviews > div {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .reviews * h1 {
-    margin: 0;
-    padding-top: 2vh;
-    font-size: 50px;
-    font-weight: bold;
-    color: var(--text-color);
+  margin: 0;
+  padding-top: 2vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 @keyframes reviewFade {
-    to {
-        opacity: 1;
-        transform: translateY(-100vh)
-    }
+  to {
+    opacity: 1;
+    transform: translateY(-100vh);
+  }
 }
 
 .reviews-div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 5vh;
 }
 
 .review-box {
-    background-color: white;
-    border-radius: 1vw;
-    width: 25vw;
-    height: 30vh;
-    margin-top: 100vh;
-    opacity: 0;
-    animation: reviewFade 1s forwards;
+  background-color: white;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 30vh;
+  margin-top: 100vh;
+  opacity: 0;
+  animation: reviewFade 1s forwards;
 }
 
 .review-box:nth-child(2) {
-    animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .review-box:nth-child(3) {
-    animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 .review-box > p {
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    font-size: 15px;
-    width: 90%;
-    margin: 0;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  font-size: 15px;
+  width: 90%;
+  margin: 0;
 }
 
 .review-rating {
-    padding-right: 50%;
-    margin: 0;
+  padding-right: 12vw;
+  margin: 0;
 }
 
 .review-rating > img {
-    width: 30px;
+  width: 30px;
 }
 
 .review-user {
-    display: flex;
-    align-items: center;
-    padding-top: 1vh;
-    padding-left: 1vw;
+  display: flex;
+  align-items: center;
+  padding-top: 1vh;
+  padding-left: 1vw;
 }
 
 .review-user > img {
-    width: 40px;
+  width: 40px;
 }
 
 .review-user > p {
-    padding-left: 0.5vw;
-    font-size: 20px;
-    margin: 0;
+  padding-left: 0.5vw;
+  font-size: 20px;
+  margin: 0;
 }
 
 /*Partners Section*/
 .partners {
-    height: 50vh;
-    border-bottom: 3px solid black;
-    overflow: hidden;
+  height: 50vh;
+  border-bottom: 3px solid black;
+  overflow: hidden;
 }
 
 .partners > div {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .partners * h1 {
-    margin: 0;
-    padding-top: 2vh;
-    font-size: 50px;
-    font-weight: bold;
-    color: var(--text-color);
+  margin: 0;
+  padding-top: 2vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--text-color);
 }
 
 .partners-logo {
-    display: block;
-    padding-top: 4vw;
-    align-items: center;
-    justify-content: center;
+  display: block;
+  padding-top: 4vw;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes logoSpread {
-    to {
-        opacity: 1;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+  to {
+    opacity: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 .partners-logo > img {
-    width: 7.5vw;
-    opacity: 0;
-    margin-left: -3.895vw;
-    margin-right: -3.895vw;
-    border-radius: 100%;
-    animation: logoSpread 1s forwards;
+  width: 7.5vw;
+  opacity: 0;
+  margin-left: -3.895vw;
+  margin-right: -3.895vw;
+  border-radius: 100%;
+  animation: logoSpread 1s forwards;
 }
