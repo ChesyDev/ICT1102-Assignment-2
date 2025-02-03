@@ -1,202 +1,201 @@
 html {
-    --primary-color-1: #ffffff;
-    --secondary-color-1: #ffffff;
-    --background-color-1: #E8E8E8;
-    --background-color-2: #2f2f2f;
-    --text-color: white;
-    --text-color-2: black;
-    font-family: 'Inter', serif;
-    scroll-behavior: smooth;
+  --primary-color-1: #ffffff;
+  --secondary-color-1: #ffffff;
+  --background-color-1: #e8e8e8;
+  --background-color-2: #2f2f2f;
+  --text-color: white;
+  --text-color-2: black;
+  font-family: "Inter", serif;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--background-color-1);
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color-1);
 }
 
 /*Introduction Styling*/
 .introduction {
-    background-color: var(--background-color-2);
-    height: 10vh;
-    outline: 2px solid rgb(60, 60, 60);
-    overflow: hidden;
+  background-color: var(--background-color-2);
+  height: 10vh;
+  outline: 2px solid rgb(60, 60, 60);
+  overflow: hidden;
 }
 
 .introduction > a {
-    position: absolute;
-    float: left;
+  position: absolute;
+  float: left;
 }
 
 .introduction > a > img {
-    padding-left: 1vw; 
-    height: 10vh;
+  padding-left: 1vw;
+  height: 10vh;
 }
 
 .introduction > span {
-    position: absolute;
-    padding-top: 1.5vh;
+  position: absolute;
+  padding-top: 1.5vh;
 }
 
 .introduction > span > p {
-    line-height: 1.5em;
-    font-size: .75em;
-    padding-left: 12vw;
-    margin: 0;
-    color: var(--text-color);
+  line-height: 1.5em;
+  font-size: 0.75em;
+  padding-left: 12vw;
+  margin: 0;
+  color: var(--text-color);
 }
 
 /*Navigation Bar Styling*/
 .navbar {
-    background-color: var(--background-color-2);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
+  background-color: var(--background-color-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
 }
 
 .navbar > span {
-    padding-right: 15vw;
+  padding-right: 15vw;
 }
 
 .navbar > ul {
-    margin: 0;
-    padding: 0;
-    padding-left: 15vw;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 15vw;
+  list-style-type: none;
 }
 
 .navbar > ul > li {
-    float: left;
-    padding-right: 2vw;
+  float: left;
+  padding-right: 2vw;
 }
 
 .navbar > a > img {
-    height: 4vh;
-    margin-right: -10px;
-    padding-top: 5px;
+  height: 4vh;
+  padding-top: 5px;
 }
 
 .navbar > a:hover {
-    filter: brightness(5%);
+  filter: brightness(5%);
 }
 
 .searchbar {
-    width: 40vw;
-    height: 4vh;
-    font-family: 'Inter', serif;
-    border-radius: 2vw;
-    padding-right: 0px;
-    padding-left: 10px;
-    border: none;
-    outline: none;
+  width: 40vw;
+  height: 4vh;
+  font-family: "Inter", serif;
+  border-radius: 2vw;
+  padding-right: 0px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
 }
 
 .navbar-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cart-icon > img {
-    height: 5vh;
+  height: 5vh;
 }
 
 .cart-icon:hover {
-    filter: brightness(5%);
+  filter: brightness(5%);
 }
 
 .current-page {
-    padding: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 10vw;
-    border: 2px solid rgb(60,60,60);
-    background-color: var(--background-color-1);
-    color: var(--text-color-2);
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 10vw;
+  border: 2px solid rgb(60, 60, 60);
+  background-color: var(--background-color-1);
+  color: var(--text-color-2);
 }
 
 .hover-attribute {
-    padding: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    font-size: 14px;
-    border-radius: 10vw;
-    background-color: #101010;
-    color: var(--text-color);
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 10vw;
+  background-color: #101010;
+  color: var(--text-color);
 }
 
 .hover-attribute:hover {
-    color: var(--text-color-2);
-    background-color: var(--background-color-1);
+  color: var(--text-color-2);
+  background-color: var(--background-color-1);
 }
 
 .hover-underline {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .hover-underline::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: white;
-    border-radius: 10%;
-    transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-radius: 10%;
+  transition: transform 0.25s ease-out;
 }
 
 .hover-underline:hover::after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 /* Footer */
 footer {
-    height: 10vh;
-    background-color: var(--background-color-2);
-    overflow: hidden;
-    color: var(--text-color)
+  height: 10vh;
+  background-color: var(--background-color-2);
+  overflow: hidden;
+  color: var(--text-color);
 }
 
 .footer-div {
-    padding-left: 1vw;
+  padding-left: 1vw;
 }
 
 .footer-div > p {
-    margin: 0;
-    padding-top: 1em;
-    line-height: .5em;
+  margin: 0;
+  padding-top: 1em;
+  line-height: 0.5em;
 }
 
 .footer-contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-contact > span {
-    display: flex;
-    padding-left: 1vw;
+  display: flex;
+  padding-left: 1vw;
 }
 
 .footer-contact > span > p > a {
-    color: rgb(20,200,255);
+  color: rgb(20, 200, 255);
 }
 
 .footer-others {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-others > a {
-    color: rgb(155,155,155);
-    text-decoration: none;
-    padding-left: 1vw;
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+  padding-left: 1vw;
 }
